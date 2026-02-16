@@ -1,0 +1,14 @@
+<web-app>
+
+  <servlet>
+    <servlet-name>carServlet</servlet-name>
+    <servlet-class>com.showroom.CarServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>carServlet</servlet-name>
+    <url-pattern>/cars</url-pattern>
+  </servlet-mapping>
+
+</web-app>
+
